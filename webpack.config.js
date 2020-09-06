@@ -24,7 +24,7 @@ module.exports = {
         test: /\.ico$/,
         loader: 'file-loader',
         options: {
-          name: 'src/[name].ico',
+          name: '[name].[ext]',
         },
       },
     ],
